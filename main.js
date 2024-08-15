@@ -94,9 +94,12 @@ function showSuccessMessage() {
   successMessage.id = "success-message";
   successMessage.innerHTML = `
     <img src="assets/Fayeowo1.jpg" alt="Success" />
-    <p>Aqui estarian mis tetas Choi, pero te demorastes una eternidad, que le costaba darle al Si 2 veces unu... owo pero Faye tienes unas tetas mas ricas que las mías aaaaa ni modo la contraseña es:</p>
+    <p>Choii nouuuu 🤧 aqui estarian mis tetas, pero te demorastes una eternidad, que le costaba darle al Si 2 veces unu... ahh pero Faye tienes unas tetas mas ricas que las mías aaaaa ni modo la contraseña es:</p>
     <p>Amigasporsiempre</p>
+    <br>
+    <a href="https://yeimi-owo.github.io/login_Choi/" class="return-link">Volver</a>
   `;
+
 
   document.body.appendChild(successMessage);
   successMessage.style.display = "block";
