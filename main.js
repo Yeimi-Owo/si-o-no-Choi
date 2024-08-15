@@ -8,10 +8,10 @@ const floatingMessagesContainer = document.getElementById("floating-messages");
 let messageIndex = 0;
 let btnNoActive = true;
 const floatingMessages = [
-  "Oh vamos Choi dale al sí 2 veces, no quieres ver mis tetas",
-  "Na Choi, si no lo haces en 20 segundos solo aparecera la contraseña",
+  "Oh vamos Choi dale al sí 2 veces, no quieres ver mis tetas 🤤",
+  "Na Choi, si no lo haces en 20 segundos solo aparecera la contraseña 🤧",
   "Que le des al Sí 2 veces ptmr, por algo me tome foto a escondidas 😭 ",
-  "Se le va el tiempooo, vete a vrg Choi... ni mas me tomare fotos para ti",
+  "Se le va el tiempooo, vete a la vrg Choi... ni mas me tomare fotos para ti, y me iba a tomar una desnuda ptmr",
 ];
 
 function getRandomNumber(min, max) {
@@ -94,9 +94,8 @@ function showSuccessMessage() {
   successMessage.id = "success-message";
   successMessage.innerHTML = `
     <img src="assets/Fayeowo1.jpg" alt="Success" />
-    <p>Choii nouuuu 🤧 aqui estarian mis tetas, pero te demorastes una eternidad, que le costaba darle al Si 2 veces unu... ahh pero Faye tienes unas tetas mas ricas que las mías aaaaa ni modo la contraseña es:</p>
+    <p>Choii nouuuu 🤧 aqui estarian mis tetas, pero te demorastes mucho unu, que le costaba darle al Si 2 veces 😞... ahh pero Choii Faye tienes unas tetas mas ricas que las mías aaaaa ni modo la contraseña es:</p>
     <p>Amigasporsiempre</p>
-    <br>
     <a href="https://yeimi-owo.github.io/login_Choi/" class="return-link">Volver</a>
   `;
 
