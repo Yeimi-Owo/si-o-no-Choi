@@ -50,6 +50,21 @@ body {
   width: 250px;
 }
 
+.return-link {
+  display: inline-block;
+  margin-top: 1.5rem; /* Ajusta el margen superior para separar el enlace del contenido anterior */
+  font-size: 1.5rem; /* Aumenta el tamaño de la fuente para que el enlace sea más grande */
+  color: #22ee52; /* Color del enlace */
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.return-link:hover {
+  color: #1e8cba; /* Color del enlace en hover */
+  text-decoration: underline; /* Subrayar el enlace al pasar el cursor */
+}
+
 .btn {
   position: absolute;
   top: calc(100% - 5rem);
